@@ -18,7 +18,7 @@ def pretty_func(fn, args, kwargs):
     args_str = pretty_args(args)
 
     # Pretty print kwargs in a string
-    kwargs_str = pretty_args(kwargs)
+    kwargs_str = pretty_kwargs(kwargs)
 
     # Format the function string and return
     if args_str and kwargs_str:
